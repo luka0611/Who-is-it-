@@ -162,6 +162,15 @@ button:disabled { opacity: 0.5; }
 .delta-plus { color: var(--success); font-weight: 700; }
 .delta-minus { color: var(--danger); font-weight: 700; }
 .winner { color: var(--gold); font-weight: 800; }
+.event-pill {
+  margin-top: .55rem;
+  padding: .45rem .6rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.2);
+  background: rgba(125,226,255,.12);
+  color: var(--accent);
+  font-weight: 600;
+}
 
 @media (min-width: 700px) {
   .layout {
